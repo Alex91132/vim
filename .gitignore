@@ -1,0 +1,10 @@
+# Игнорируем кэш Neovim
+*.un~
+*.swp
+*.swo
+*.swn
+.session.vim
+.netrwhist
+tags
+tags-*
+*.log
