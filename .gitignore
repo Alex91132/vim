@@ -8,3 +8,6 @@
 tags
 tags-*
 *.log
+
+# Генерируется packer при :PackerCompile, содержит локальные пути
+plugin/packer_compiled.lua

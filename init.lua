@@ -43,8 +43,8 @@ end)
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>ee", ":NvimTreeFindFile<CR>", { noremap = true, silent = true })
 
--- Тема (временно закомментирована для установки)
-vim.cmd('colorscheme tokyonight')
+-- Тема (pcall: пока плагины не установлены, Neovim запускается без неё)
+pcall(vim.cmd, 'colorscheme tokyonight')
 -- Treesitter configuration
 local status_ok, configs = pcall(require, "nvim-treesitter.configs")
 if status_ok then
